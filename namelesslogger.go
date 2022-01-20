@@ -1,5 +1,8 @@
 package namelesslibray
 
+// This struct creates our own log writer without datatime stamp
+// As Android adds time stamps on each line
+
 import (
 	"log"
 	"os"
@@ -7,8 +10,6 @@ import (
 	v2commlog "github.com/xtls/xray-core/common/log"
 )
 
-// This struct creates our own log writer without datatime stamp
-// As Android adds time stamps on each line
 type consoleLogWriter struct {
 	logger *log.Logger
 }
