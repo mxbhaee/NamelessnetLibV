@@ -14,7 +14,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mxbhaee/Nameless2Ray/VPN"
+	"github.com/mxbhaee/NamelessnetLibV/VPN"
 	mobasset "golang.org/x/mobile/asset"
 
 	v2net "github.com/xtls/xray-core/common/net"
