@@ -16,7 +16,7 @@ import (
 
 	mobasset "golang.org/x/mobile/asset"
 
-	"github.com/2dust/AndroidLibXrayLite/VPN"
+	"github.com/mxbhaee/NamelessnetLibV/VPN"
 	v2net "github.com/xtls/xray-core/common/net"
 	v2filesystem "github.com/xtls/xray-core/common/platform/filesystem"
 	v2core "github.com/xtls/xray-core/core"
