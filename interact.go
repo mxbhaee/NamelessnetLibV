@@ -6,9 +6,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/2dust/AndroidLibV2rayLite/CoreI"
-	"github.com/2dust/AndroidLibV2rayLite/Process/Escort"
-	"github.com/2dust/AndroidLibV2rayLite/VPN"
+	"github.com/mxbhaee/NamelessnetLibV/CoreI"
+	"github.com/mxbhaee/NamelessnetLibV/Process/Escort"
+	"github.com/mxbhaee/NamelessnetLibV/VPN"
 	mobasset "golang.org/x/mobile/asset"
 
 	v2core "github.com/xtls/xray-core/core"
