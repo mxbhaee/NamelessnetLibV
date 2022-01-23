@@ -125,4 +125,3 @@ LOCAL_LDLIBS := -ldl -llog
 LOCAL_SRC_FILES := $(addprefix badvpn/, $(TUN2SOCKS_SOURCES))
 
 include $(BUILD_SYSTEM)/build-executable.mk
-

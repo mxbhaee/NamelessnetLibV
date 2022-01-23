@@ -1,5 +1,3 @@
-package namelesslibray
-
 import (
 	"fmt"
 	"io"
@@ -8,13 +6,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/mxbhaee/NamelessnetLibV/CoreI"
-	"github.com/mxbhaee/NamelessnetLibV/Process/Escort"
-	"github.com/mxbhaee/NamelessnetLibV/VPN"
+	"github.com/2dust/AndroidLibV2rayLite/CoreI"
+	"github.com/2dust/AndroidLibV2rayLite/Process/Escort"
+	"github.com/2dust/AndroidLibV2rayLite/VPN"
 	mobasset "golang.org/x/mobile/asset"
 
-	v2filesystem "github.com/xtls/xray-core/common/platform/filesystem"
 	v2core "github.com/xtls/xray-core/core"
+	v2filesystem "github.com/xtls/xray-core/common/platform/filesystem"
 	v2stats "github.com/xtls/xray-core/features/stats"
 	v2serial "github.com/xtls/xray-core/infra/conf/serial"
 	_ "github.com/xtls/xray-core/main/distro/all"
