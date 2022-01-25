@@ -1,3 +1,5 @@
+package namelesslibray
+
 import (
 	"fmt"
 	"io"
@@ -11,8 +13,8 @@ import (
 	"github.com/mxbhaee/NamelessnetLibV/VPN"
 	mobasset "golang.org/x/mobile/asset"
 
-	v2core "github.com/xtls/xray-core/core"
 	v2filesystem "github.com/xtls/xray-core/common/platform/filesystem"
+	v2core "github.com/xtls/xray-core/core"
 	v2stats "github.com/xtls/xray-core/features/stats"
 	v2serial "github.com/xtls/xray-core/infra/conf/serial"
 	_ "github.com/xtls/xray-core/main/distro/all"
@@ -202,6 +204,11 @@ func initV2Env() {
 		}
 		return os.Open(path)
 	}
+}
+
+//not properly implemented
+func measureOutboundDelay(str string) {
+	os.Executable()
 }
 
 //Delegate Funcation
