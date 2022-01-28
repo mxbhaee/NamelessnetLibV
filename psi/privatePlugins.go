@@ -1,3 +1,4 @@
+//go:build PRIVATE_PLUGINS
 // +build PRIVATE_PLUGINS
 
 /*
@@ -19,7 +20,7 @@
  *
  */
 
-package psi
+package namelesslibray
 
 import (
 	_ "github.com/Psiphon-Inc/psiphon-tunnel-core-private-plugins/client_plugins"
